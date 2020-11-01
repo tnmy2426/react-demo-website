@@ -1,0 +1,42 @@
+/* NAVBAR SECTION */
+
+/* .nav_bg{
+    background-color: black !important;
+    color: ;
+} */
+
+.navbar{
+    background-color: #132743 !important;
+}
+
+.navbar-brand{
+    font-size: 2rem !important;
+    font-weight: 1000;
+    color: #f8efd4 !important;
+    margin-left: 5rem !important;
+}
+
+nav ul{
+    font-size: 1.5rem !important;
+    margin-right: 5rem !important;
+}
+
+button.navbar-toggler{
+    background: #d7385e !important;
+    margin-right: 3rem;
+}
+.navbar-toggler-icon{
+    color: #132743 !important;
+}
+
+.nav-link{
+    color: #f8efd4 !important;
+}
+.nav-link:hover{
+    color: #d7385e !important;
+}
+
+.navlink_active{
+    font-weight: bold;
+    border-bottom: 0.1rem solid #d7385e;
+}
