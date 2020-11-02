@@ -6,3 +6,48 @@
     padding: 0;
 }
 
+.contact_container{
+    width: 100%;
+    height: 80vh;
+    background-color: #132743;
+}
+
+.heading{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #d7385e;
+}
+
+.form-label{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #d7385e;
+}
+
+footer{
+    margin-top: 2rem;
+    padding: 1rem 0rem;
+    background-color: #132743;
+    color: #d7385e;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.gallery_div{
+    width: 100%;
+    height: 82vh;
+}
+
+.about_btn{
+    background-color: #edc988 !important;
+    color: #132743 !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    transition: 0.5s !important;
+}
+
+.about_btn:hover{
+    background-color: #d7385e !important;
+}

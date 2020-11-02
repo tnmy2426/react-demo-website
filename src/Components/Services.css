@@ -2,8 +2,7 @@
 
 .card_div{
     width: 100%;
-    top: 2rem;
-    height: 80vh;
+    height: 100vh;
     background-color: #fff;
     display: flex;
     flex-direction: column;
