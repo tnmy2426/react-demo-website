@@ -6,13 +6,15 @@ import Data from './CardsData';
 const Services = () => {
     return (
         <>
-            <section className='container card_div'>
-                <div className='row'>
-                    {
-                        Data.map((value, index) => {
-                            return <Cards imgsrc={value.imgsrc} key={index} />
-                        })
-                    }
+            <section className='card_div'>
+                <div className="container">
+                    <div className='row'>
+                        {
+                            Data.map((value, index) => {
+                                return <Cards imgsrc={value.imgsrc} key={index} />
+                            })
+                        }
+                    </div>
                 </div>
             </section>
         </>

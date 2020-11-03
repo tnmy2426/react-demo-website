@@ -5,8 +5,12 @@
     color: ;
 } */
 
-.navbar{
-    background-color: #132743 !important;
+/* .navbar{
+    
+} */
+
+.nav_container{
+    background-color: #132743;
 }
 
 .navbar-brand{
@@ -21,14 +25,6 @@ nav ul{
     margin-right: 5rem !important;
 }
 
-button.navbar-toggler{
-    background: #d7385e !important;
-    margin-right: 3rem;
-}
-.navbar-toggler-icon{
-    color: #132743 !important;
-}
-
 .nav-link{
     color: #f8efd4 !important;
 }
@@ -39,4 +35,20 @@ button.navbar-toggler{
 .navlink_active{
     font-weight: bold;
     border-bottom: 0.1rem solid #d7385e;
+}
+
+.navbar-toggler{
+    background-color: #d7385e !important;
+    margin-right: 3rem;
+}
+
+span i{
+    padding: 2px 2px;
+    font-size: 2rem;
+    border: none;
+    color: #132743;
+}
+
+span i:focus{
+    border: none;
 }
